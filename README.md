@@ -17,7 +17,7 @@
 
 ## Структура проекта
 
--   `virtual_net.c` — исходный код модуля.
+-   `virtual_net.c, virtual_net.h` — исходный код модуля.
 -   `Makefile` — сборка/загрузка/тестовые команды.
 -   `.vscode/*` — настройки Cursor/VS Code (задачи и IntelliSense).
 
