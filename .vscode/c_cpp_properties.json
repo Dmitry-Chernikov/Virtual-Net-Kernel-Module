@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "name": "Linux kernel module (compile_commands)",
+      "compileCommands": "${workspaceFolder}/compile_commands.json",
+      "cStandard": "gnu11",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerPath": "/usr/bin/gcc"
+    },
+    {
+      "name": "Linux kernel module (fallback)",
+      "compileCommands": "",
+      "includePath": [
+        "${workspaceFolder}",
+        "${env:KERNEL_BUILD}/include",
+        "${env:KERNEL_BUILD}/arch/x86/include",
+        "${env:KERNEL_BUILD}/arch/x86/include/generated",
+        "${env:KERNEL_BUILD}/arch/x86/include/uapi",
+        "${env:KERNEL_BUILD}/arch/x86/include/generated/uapi",
+        "${env:KERNEL_BUILD}/include/uapi",
+        "${env:KERNEL_BUILD}/include/generated/uapi"
+      ],
+      "defines": ["__KERNEL__", "MODULE"],
+      "cStandard": "gnu11",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerPath": "/usr/bin/gcc"
+    }
+  ],
+  "version": 4
+}

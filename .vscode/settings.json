@@ -1,0 +1,12 @@
+{
+  "ocaml.sandbox": {
+    "kind": "global"
+  },
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
+  "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+  "C_Cpp.default.cStandard": "gnu11",
+  "files.associations": {
+    "*.h": "c",
+    "*.c": "c"
+  }
+}
